@@ -7,7 +7,7 @@ import json
 csv_path = 'nexflix_anime.csv'
 json_path = 'json\\netflix_anime.json'
 
-data = [{}]
+data = []
 
 with open(csv_path) as csv_file:
     csv_reader = csv.DictReader(csv_file)
